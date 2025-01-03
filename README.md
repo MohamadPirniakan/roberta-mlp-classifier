@@ -50,21 +50,6 @@ Run the script to preprocess the data, generate embeddings, and handle class imb
 ```bash
 python preprocess.py
 ```
-
-### Training the Model
-Train the MLP model using the generated embeddings:
-
-```bash
-python train.py
-```
-
-### Evaluation
-Evaluate the trained model on the test set:
-
-```bash
-python evaluate.py
-```
-
 ---
 
 ## Pipeline
@@ -105,10 +90,6 @@ Example classification report:
  weighted avg    0.87      0.87      0.87       500
 ```
 
-### Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
-
----
 
 ## License
 
